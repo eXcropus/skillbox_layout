@@ -741,9 +741,9 @@ body {
     animation-fill-mode: both;
 }
 
-/*.prices__fly-item:nth-child(1) {*/
-/*    animation-name: priceOne;*/
-/*}*/
+/* .prices__fly-item:nth-child(1) {
+    animation-name: priceOne;
+} */
 
 @keyframes priceOne {
     to {
@@ -751,9 +751,9 @@ body {
     }
 }
 
-/*.prices__fly-item:nth-child(2) {*/
-/*    animation-name: priceTwo;*/
-/*}*/
+/* .prices__fly-item:nth-child(2) {
+    animation-name: priceTwo;
+} */
 
 @keyframes priceTwo {
     to {
@@ -761,9 +761,9 @@ body {
     }
 }
 
-/*.prices__fly-item:nth-child(3) {*/
-/*    animation-name: priceThree;*/
-/*}*/
+/* .prices__fly-item:nth-child(3) {
+    animation-name: priceThree;
+} */
 
 @keyframes priceThree {
     to {
@@ -771,9 +771,9 @@ body {
     }
 }
 
-/*.prices__fly-item:nth-child(4) {*/
-/*    animation-name: priceFour;*/
-/*}*/
+/* .prices__fly-item:nth-child(4) {
+    animation-name: priceFour;
+} */
 
 @keyframes priceFour {
     to {
@@ -781,9 +781,9 @@ body {
     }
 }
 
-/*.prices__fly-item:nth-child(5) {*/
-/*    animation-name: priceFive;*/
-/*}*/
+/* .prices__fly-item:nth-child(5) {
+    animation-name: priceFive;
+} */
 
 @keyframes priceFive {
     to {
