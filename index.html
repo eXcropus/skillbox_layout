@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Диплом</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="libs/swiper/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="main-web">
+        <header class="header">
+            <div class="header-top container">
+                <nav class="nav-menu">
+                    <ul class="nav-menu__list">
+                        <li class="nav-menu__item"><a class="nav-menu__link scroll-smooth" href="#type-jobs">Услуги</a>
+                        </li>
+                        <li class="nav-menu__item"><a class="nav-menu__link scroll-smooth"
+                                href="#work-example">Портфолио</a></li>
+                        <li class="nav-menu__item"><a class="nav-menu__link scroll-smooth" href="#prices">Стоимость</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="burger">
+                    <span class="burger__line burger__line_top"></span>
+                    <span class="burger__line burger__line_middle"></span>
+                    <span class="burger__line burger__line_bottom"></span>
+                </button>
+                <div class="header-top__call">
+                    <a href="tel:+74999957755" class="header-top__number">+7 (499) 995-55-77</a>
+                    <button class="header-top__callback callback"></button>
+                </div>
+            </div>
+        </header>
+
+        <section class="my-block">
+            <div class="about-me container">
+                <h1 class="about-me__name">Дмитрий Алексеев
+                    <span class="about-me__profession">Frontend-разработчик и веб&nbsp;-&nbsp;верстальщик</span>
+                </h1>
+                <div class="about-me__more">
+                    <a href="#work-example" class="about-me__link scroll-smooth">Узнать больше</a>
+                    <div class="fly-blocks">
+                        <span class="header-mid__fly-item">{&nbsp;}</span>
+                        <span class="header-mid__fly-item">&lt;div&gt;</span>
+                        <span class="header-mid__fly-item">#</span>
+                        <span class="header-mid__fly-item">&lt;/&gt;</span>
+                        <span class="header-mid__fly-item">&lt;/&gt;</span>
+                        <span class="header-mid__fly-item">&lt;div&gt;</span>
+                    </div>
+                </div>
+            </div>
+
+            <picture class="my-photo">
+                <source media="(max-width: 768px)" srcset="img/header-photo-mob.png">
+                <img src="img/header-photo.png" class="my-photo__image" alt="Картинка">
+            </picture>
+
+        </section>
+
+        <section class="type-jobs container" id="type-jobs">
+            <h2 class="type-jobs__title title">Что я делаю</h2>
+            <ul class="type-jobs__list">
+                <li class="type-jobs__item type-jobs__item_layout">Вёрстка лендинг&mdash;страниц
+                    и&nbsp;сайтов любой сложности</li>
+                <li class="type-jobs__item type-jobs__item_adaptiv">Адаптивная вёрстка под все
+                    браузеры и&nbsp;устройства</li>
+                <li class="type-jobs__item type-jobs__item_frontend">Frontend&mdash;разработка
+                    и&nbsp;программирование</li>
+                <li class="type-jobs__item type-jobs__item_bugs">Исправление и&nbsp;доработка
+                    существующей вёрстки</li>
+            </ul>
+
+            <div class="pop-up-open">
+                <button class="pop-up-open__btn">Узнать стоимость</button>
+            </div>
+        </section>
+
+        <section class="work-example " id="work-example">
+            <h2 class="work-example__title title container">Примеры моих работ</h2>
+            <div class="swiper-container container container">
+                <div class="swiper-wrapper example-job">
+                    <div class="swiper-slide example-job__item example-job__item_therapy">
+                        <a href="" class="example-job__link">
+                            <img src="img/project_1.png" alt="" class="example-job__image">
+                            <span class="example-job__text">Сайт психолога Веры Антоновой</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide example-job__item example-job__item_child">
+                        <a href="" class="example-job__link">
+                            <img src="img/project_2.png" alt="" class="example-job__image">
+                            <span class="example-job__text">Сайт магазина детской одежды</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide example-job__item example-job__item_fish">
+                        <a href="" class="example-job__link">
+                            <img src="img/project_3.png" alt="" class="example-job__image">
+                            <span class="example-job__text">Сайт магазина «Рыболов»</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination container"></div>
+
+            <div class="arrow container">
+                <div class="arrow__left"></div>
+                <div class="arrow__right"></div>
+            </div>
+            <div class="work-example__pop-up-open pop-up-open container">
+                <button class="pop-up-open__btn">Заказать проект</button>
+            </div>
+        </section>
+
+        <section class="prices" id="prices">
+            <div class="prices__wrap">
+                <h2 class="prices__title">Адаптивная вёрстка под все устройства
+                    и&nbsp;браузеры от&nbsp;1000 рублей всего за&nbsp;4&nbsp;часа.*</h2>
+                <p class="prices__text">Срок и&nbsp;стоимость могут отличаться от&nbsp;заявленных и&nbsp;рассчитываются
+                    индивидуально,
+                    в&nbsp;зависимости от&nbsp;сложности задач.</p>
+            </div>
+            <div class="prices__fly-blocks">
+                <span class="prices__fly-item">{&nbsp;}</span>
+                <span class="prices__fly-item">#</span>
+                <span class="prices__fly-item">&lt;/&gt;</span>
+                <span class="prices__fly-item">{&nbsp;}</span>
+                <span class="prices__fly-item">&lt;div&gt;</span>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__top container">
+                <nav class="footer__menu">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#type-jobs" class="footer__link scroll-smooth">Услуги</a></li>
+                        <li class="footer__item"><a href="#work-example"
+                                class="footer__link scroll-smooth">Портфолио</a></li>
+                        <li class="footer__item"><a href="#prices" class="footer__link scroll-smooth">Стоимость</a></li>
+                    </ul>
+                </nav>
+                <div class="contacts">
+                    <div class="contacts__tel">
+                        <a href="tel:+74999957755" class="contacts__item">
+                            <i class="fas fa-phone-alt contacts__icon"></i>
+                            +7 (499) 995-77-55
+                        </a>
+                    </div>
+                    <div class="contacts__mail">
+                        <a href="mailto:dmitry@alekseev.com" class="contacts__item">
+                            <i class="fas fa-envelope contacts__icon"></i>
+                            dmitry@alekseev.com
+                        </a>
+                    </div>
+                </div>
+                <div class="contacts-us">
+                    <button class="contacts-us__callback callback"></button>
+                    <ul class="social-contacts">
+                        <li class="social-contacts__item"><a href="https://vk.com/feed"
+                                class="social-contacts__link social-contacts__item_vk" target="_blank"></a></li>
+                        <li class="social-contacts__item"><a href="https://www.facebook.com/"
+                                class="social-contacts__link social-contacts__item_fb" target="_blank"></a></li>
+                        <li class="social-contacts__item"><a href="https://twitter.com/home"
+                                class="social-contacts__link social-contacts__item_tw" target="_blank"></a></li>
+                        <li class="social-contacts__item"><a href="https://www.instagram.com/"
+                                class="social-contacts__link social-contacts__item_inst" target="_blank"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p class="copyright__text">&#169; Дмитрий Алексеев, 2016 – 2018</p>
+            </div>
+        </footer>
+        
+        <div class="pop-up">
+            <div class="pop-up__container">
+                <h2 class="pop-up__title">Заказать звонок
+                    <button class="pop-up__close">
+                        <span class="pop-up__close_line"></span>
+                        <span class="pop-up__close_line"></span>
+                    </button>
+                </h2>
+                <form class="pop-up__form">
+                    <input type="hidden" name="project_name" value="Диплом">
+                    <input type="hidden" name="admin_email" value="lpyasha123@gmail.com">
+                    <input type="hidden" name="form_subject" value="Заявка на звонок">
+                    <p class="pop-up__text">
+                        <label for="number">Ваш номер телефона:</label>
+                    </p>
+                    <input type="tel" placeholder="+7(999)999-99-99" id="number" name="number"
+                        class="pop-up__item pop-up__item_tel">
+                    <p class="pop-up__text">
+                        <label for="mail">Ваша почта:</label>
+                    </p>
+                    <input type="text" placeholder="example@mail.com" id="mail" name="mail" class="pop-up__item">
+                    <input type="submit" class="pop-up__submit">
+                </form>
+
+            </div>
+            <div class="pop-up__thanks thanks">
+                <button class="pop-up__close">
+                    <span class="pop-up__close_line"></span>
+                    <span class="pop-up__close_line"></span>
+                </button>
+                <p class="thanks__text"> Заявка отправлена, спасибо.<br> Мы перезвоним Вам в ближайшее время.</p>
+            </div>
+        </div>
+        <div class="burger-up">
+
+            <button class="burger-up__close close">
+                <span class="close__line"></span>
+                <span class="close__line"></span>
+            </button>
+            <nav class="burger-up__nav-menu">
+                <ul class="burger-up__list">
+                    <li class="burger-up__item">
+                        <a class="burger-up__link" href="#type-jobs">Услуги</a>
+                    </li>
+                    <li class="burger-up__item">
+                        <a class="burger-up__link" href="#work-example">Портфолио</a>
+                    </li>
+                    <li class="burger-up__item">
+                        <a class="burger-up__link" href="#prices">Стоимость</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/31ccd4fafc.js" crossorigin="anonymous"></script>
+    <script src="libs/swiper/swiper.min.js"></script>
+    <script src="libs/jquery.inputmask.js"></script>
+    <script src="libs/jquery.validate.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
