@@ -739,56 +739,31 @@ body {
     -webkit-text-fill-color: transparent;
     animation-duration: 3s;
     animation-fill-mode: both;
+    transition: transform 3s ease-in-out;
 }
+
+.prices__fly-item.animate {
+    transform: translateX(0) translateY(0);
+  }
 
 .prices__fly-item_one {
-    animation-name: priceOne;
-}
-
-@keyframes priceOne {
-    to {
-        transform: rotate(29deg) translateX(-42.5vw) translateY(11.3vw) scale(3);
-    }
+    transform: rotate(29deg) translateX(-42.5vw) translateY(11.3vw) scale(3);
 }
 
 .prices__fly-item_two {
-    animation-name: priceTwo;
-}
-
-@keyframes priceTwo {
-    to {
-        transform: rotate(16deg) translateX(-35.5vw) translateY(9.3vw) scale(3.5);
-    }
+    transform: rotate(16deg) translateX(-35.5vw) translateY(9.3vw) scale(3.5);
 }
 
 .prices__fly-item_three {
-    animation-name: priceThree;
-}
-
-@keyframes priceThree {
-    to {
-        transform: rotate(-24deg) translateX(38.5vw) translateY(5.3vw) scale(2.5);
-    }
+    transform: rotate(-24deg) translateX(38.5vw) translateY(5.3vw) scale(2.5);
 }
 
 .prices__fly-item_four {
-    animation-name: priceFour;
-}
-
-@keyframes priceFour {
-    to {
-        transform: rotate(-21deg) translateX(40.5vw) translateY(14.3vw) scale(3);
-    }
+    transform: rotate(-21deg) translateX(40.5vw) translateY(14.3vw) scale(3);
 }
 
 .prices__fly-item_five {
-    animation-name: priceFive;
-}
-
-@keyframes priceFive {
-    to {
-        transform: rotate(19deg) translateX(24.5vw) translateY(-7vw) scale(2.5);
-    }
+    transform: rotate(19deg) translateX(24.5vw) translateY(-7vw) scale(2.5);
 }
 
 .footer {
@@ -1141,7 +1116,6 @@ body {
 
     .example-job__image {
         width: 90%;
-        /* padding-left: 26px; */
     }
 
     .swiper-pagination {
@@ -1177,42 +1151,24 @@ body {
         width: 93%;
     }
 
-    @keyframes priceOne {
-        to {
-            transform: rotate(29deg) translateX(-437px) translateY(-81px) scale(2);
-        }
+    .prices__fly-item_one {
+        transform: rotate(29deg) translateX(-437px) translateY(-81px) scale(2);
     }
-
-    @keyframes priceTwo {
-        from {
-            transform: scale(0);
-        }
-
-        to {
-            transform: rotate(16deg) translateX(-35.5vw) translateY(9.3vw) scale(0);
-        }
+    
+    .prices__fly-item_two {
+        display: none;
     }
-
-    @keyframes priceThree {
-        to {
-            transform: rotate(-24deg) translateX(33.5vw) translateY(15.3vw) scale(2.5);
-        }
+    
+    .prices__fly-item_three {
+        transform: rotate(-24deg) translateX(33.5vw) translateY(15.3vw) scale(2.5);
     }
-
-    @keyframes priceFour {
-        from {
-            transform: scale(0);
-        }
-
-        to {
-            transform: rotate(-21deg) translateX(40.5vw) translateY(14.3vw) scale(0);
-        }
+    
+    .prices__fly-item_four {
+        display: none;
     }
-
-    @keyframes priceFive {
-        to {
-            transform: rotate(19deg) translateX(1.5vw) translateY(1vw) scale(1.5);
-        }
+    
+    .prices__fly-item_five {
+        transform: rotate(19deg) translateX(1.5vw) translateY(1vw) scale(1.5);
     }
 
     .footer {
@@ -1297,26 +1253,16 @@ body {
         width: 80vw;
     }
 
-    @keyframes priceOne {
-        from {
-            transform: scale(0);
-        }
-
-        to {
-            transform: rotate(29deg) translateX(-437px) translateY(-128px) scale(0);
-        }
+    .prices__fly-item_one {
+        transform: rotate(19deg) translateX(-36.5vw) translateY(17vw) scale(1.5);
     }
-
-    @keyframes priceThree {
-        to {
-            transform: rotate(-24deg) translateX(33.5vw) translateY(15.3vw) scale(2.5);
-        }
+    
+    .prices__fly-item_three {
+        transform: rotate(-24deg) translateX(33.5vw) translateY(15.3vw) scale(2.5);
     }
-
-    @keyframes priceFive {
-        to {
-            transform: rotate(19deg) translateX(1.5vw) translateY(3vw) scale(1.5);
-        }
+    
+    .prices__fly-item_five {
+        transform: rotate(19deg) translateX(1.5vw) translateY(3vw) scale(1.5);
     }
 
     .footer__menu {
@@ -1494,14 +1440,10 @@ body {
         padding-top: 40px;
     }
 
-    @keyframes priceOne {
-        from {
-            transform: scale(0);
-        }
-        to {
-            transform: rotate(29deg) translateX(-44.5vw) translateY(-26vh) scale(0);
-        }
+    .prices__fly-item_one {
+        transform: rotate(19deg) translateX(-36.5vw) translateY(20vw) scale(1.5);
     }
+    
 
     .footer {
         margin-top: 37px;
@@ -1746,22 +1688,17 @@ body {
         font-size: 20px;
     }
 
-    @keyframes priceOne {
-        to {
-            transform: rotate(29deg) translateX(-54.5vw) translateY(-17vh) scale(1.5);
-        }
-    }
 
-    @keyframes priceThree {
-        to {
-            transform: rotate(-24deg) translateX(33.5vw) translateY(15.3vw) scale(1.5);
-        }
+    .prices__fly-item_one {
+        transform: rotate(29deg) translateX(-54.5vw) translateY(-17vh) scale(1.5);
     }
-
-    @keyframes priceFive {
-        to {
-            transform: rotate(19deg) translateX(1.5vw) translateY(3vw) scale(1);
-        }
+    
+    .prices__fly-item_three {
+        transform: rotate(-24deg) translateX(33.5vw) translateY(15.3vw) scale(1.5);
+    }
+    
+    .prices__fly-item_five {
+        transform: rotate(19deg) translateX(1.5vw) translateY(3vw) scale(1);
     }
 
     .burger-up__link {
@@ -2004,36 +1941,10 @@ body {
         line-height: 2;
     }
 
-    @keyframes priceOne {
-        from {
-            transform: scale(0);
-        }
-
-        to {
-            transform: rotate(29deg) translateX(-54.5vw) translateY(-24.7vw) scale(0);
-        }
+    .prices__fly-item_one, .prices__fly-item_three, .prices__fly-item_five  {
+        display: none;
     }
-
-    @keyframes priceThree {
-        from {
-            transform: scale(0);
-        }
-
-        to {
-            transform: rotate(-24deg) translateX(33.5vw) translateY(15.3vw) scale(0);
-        }
-    }
-
-    @keyframes priceFive {
-        from {
-            transform: scale(0);
-        }
-
-        to {
-            transform: rotate(19deg) translateX(1.5vw) translateY(3vw) scale(0);
-        }
-    }
-
+    
     .footer {
         margin-top: 37px;
     }

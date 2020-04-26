@@ -88,11 +88,7 @@ $(document).ready(function () {
     var offset = $('.prices').offset();
     if ($(this).scrollTop() > offset.top - $('.prices').height()) {
       $(".prices__fly-item").addClass('active');
-      $(".prices__fly-item:nth-child(1)").addClass('prices__fly-item_one');
-      $(".prices__fly-item:nth-child(2)").addClass('prices__fly-item_two');
-      $(".prices__fly-item:nth-child(3)").addClass('prices__fly-item_three');
-      $(".prices__fly-item:nth-child(4)").addClass('prices__fly-item_four');
-      $(".prices__fly-item:nth-child(5)").addClass('prices__fly-item_five');
+      $('.prices__fly-item').removeClass('animate');
     }
   });
 
