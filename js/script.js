@@ -88,6 +88,11 @@ $(document).ready(function () {
     var offset = $('.prices').offset();
     if ($(this).scrollTop() > offset.top - $('.prices').height()) {
       $(".prices__fly-item").addClass('active');
+       $(".prices__fly-item_one").css({'animation-name' : 'priceOne'});
+      $(".prices__fly-item_two").css({'animation-name' : 'priceTwo'});
+      $(".prices__fly-item_three").css({'animation-name' : 'priceThree'});
+      $(".prices__fly-item_four").css({'animation-name' : 'priceFour'});
+      $(".prices__fly-item_five").css({'animation-name' : 'priceFive'});
     }
   });
 
